@@ -40,10 +40,14 @@
 
 .quote {
     margin-top: 150px;
-    height: 1000px;
+    height: 250px;
 }
 
 h2 {
     font-size: 25px;
     background-color: lightgray;
+}
+
+#mapImg {
+    width: 1127px;
 }
