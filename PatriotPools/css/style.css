@@ -43,6 +43,11 @@
     height: 250px;
 }
 
+.quoteBackground {
+    background-color: gray;
+    color: white;
+}
+
 h2 {
     font-size: 25px;
     background-color: lightgray;
@@ -56,4 +61,8 @@ h2 {
     float: right;
     margin-top: 75px;
     font-size: 18px;
+}
+
+.buisnessHours {
+    margin-top: 75px;
 }
