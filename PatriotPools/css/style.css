@@ -41,16 +41,19 @@
 .quote {
     margin-top: 150px;
     height: 250px;
+    font-family: 'Manjari', sans-serif;
 }
 
 .quoteBackground {
     background-color: gray;
     color: white;
+    font-family: 'Manjari', sans-serif;
 }
 
 h2 {
     font-size: 25px;
     background-color: lightgray;
+    font-family: 'Manjari', sans-serif;
 }
 
 #mapImg {
@@ -59,10 +62,18 @@ h2 {
 
 .contactPartOne {
     float: right;
-    margin-top: 75px;
+    margin-top: 85px;
     font-size: 18px;
 }
 
 .buisnessHours {
     margin-top: 75px;
+}
+
+li {
+    margin-left: 15px;
+}
+
+#hours {
+    margin-left: 15px;
 }
