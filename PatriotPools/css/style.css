@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Manjari&display=swap");
 #showcase {
     color: white;
     height: 100vh;
@@ -53,6 +54,7 @@
 h2 {
     font-size: 25px;
     background-color: lightgray;
+    opacity: 70%;
     font-family: 'Manjari', sans-serif;
 }
 
@@ -62,8 +64,16 @@ h2 {
 
 .contactPartOne {
     float: right;
-    margin-top: 85px;
+    margin-top: 50px;
     font-size: 18px;
+}
+
+#contactUs {
+    float: right;
+}
+
+.contactUs {
+    margin-top: 75px;
 }
 
 .buisnessHours {
@@ -76,4 +86,6 @@ li {
 
 #hours {
     margin-left: 15px;
+    border-bottom: 2px;
+    border-bottom-style: solid;
 }
