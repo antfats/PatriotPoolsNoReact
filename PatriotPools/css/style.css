@@ -32,6 +32,8 @@
 
 #firstSectionHeader {
     margin-top: 15px;
+    border-bottom-style: "solid";
+    border-width: 2px;
 }
 
 .imgs {
@@ -69,7 +71,10 @@ h2 {
 }
 
 #contactUs {
-    float: right;
+    margin-left: 750px;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    font-family: 'Manjari', sans-serif;
 }
 
 .contactUs {
@@ -80,12 +85,22 @@ h2 {
     margin-top: 75px;
 }
 
+#contactBuisness {
+    margin-top: 150px;
+}
+
 li {
     margin-left: 15px;
+}
+
+#phoneNumber {
+    margin-left: 775px;
 }
 
 #hours {
     margin-left: 15px;
     border-bottom: 2px;
     border-bottom-style: solid;
+    font-family: 'Manjari', sans-serif;
+    display: inline;
 }
