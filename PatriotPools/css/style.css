@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Manjari&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Modak&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Saira+Stencil+One&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Lexend+Giga&display=swap");
 #showcase {
     color: white;
     height: 100vh;
@@ -101,10 +102,10 @@ h2 {
 
 #contactUs {
     margin-bottom: 10px;
-    margin-left: 715px;
+    margin-left: 630px;
     border-bottom-style: solid;
     border-bottom-width: 2px;
-    font-family: 'Manjari', sans-serif;
+    font-family: 'Lexend Giga', sans-serif;
     font-size: 40px;
 }
 
