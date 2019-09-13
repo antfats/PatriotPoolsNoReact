@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Manjari&display=swap");
-#showcase {
+@import url("https://fonts.googleapis.com/css?family=Modak&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Saira+Stencil+One&display=swap");
+ #showcase {
     color: white;
     height: 100vh;
     background-image: url(../img/nicePool.jpg);
@@ -41,6 +43,10 @@
     color: #0069cc;
 }
 
+#flagIcon {
+    width: 45px;
+}
+
 li {
     font-family: 'Manjari', sans-serif;
 }
@@ -59,7 +65,8 @@ li {
 .quoteBackground {
     background-color: gray;
     color: white;
-    font-family: 'Manjari', sans-serif;
+    font-family: 'Saira Stencil One', cursive;
+    padding: 35px;
 }
 
 h2 {
@@ -98,6 +105,7 @@ h2 {
 
 #contactBuisness {
     margin-top: 150px;
+    border-top-style: solid;
 }
 
 li {
