@@ -48,6 +48,11 @@
     border-bottom-style: solid;
     border-bottom-width: 1.5px;
     color: #0069cc;
+    margin-top: 55px;
+}
+
+#gallary {
+    margin-top: 50px;
 }
 
 #flagIcon {
@@ -73,7 +78,7 @@ li {
     background-color: gray;
     color: white;
     font-family: 'Saira Stencil One', cursive;
-    padding: 35px;
+    padding: 55px;
 }
 
 h2 {
@@ -121,7 +126,7 @@ li {
 }
 
 #phoneNumber {
-    margin-left: 775px;
+    margin-left: 720px;
     font-size: 18px
 }
 
