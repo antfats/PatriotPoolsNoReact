@@ -11,150 +11,197 @@
         href='https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/components/icon.min.css'>
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Manjari&display=swap" rel="stylesheet">
-
-
+    <link href="https://fonts.googleapis.com/css?family=Lexend+Giga&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/components/accordion.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/components/accordion.js">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/components/sidebar.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/components/sidebar.min.js">
 
 </head>
 
 <body>
-
-    <header id="showcase">
-        <div class="ui stackable inverted secondary menu" id="menu">
-            <div class="ui container" style="height: 50px">
-                <div class="ui sticky item">
-                    <img id="flagIcon" src="img/united-states-icon.png" />
-                </div>
-                <div class="menu right">
-                    <a href="#" class="item">Home</a>
-                    <a href="#" class="item">About us</a>
-                    <a href="#" class="item">Gallary</a>
-                    <a href="#" class="item">Contact</a>
+    <div class="ui left vertical menu sidebar">
+        <a class="item">
+            Item 1
+        </a>
+        <a class="item">
+            Item 2
+        </a>
+        <a class="item">
+            Item 3
+        </a>
+    </div>
+    
+    <div class="pusher">
+        <header id="showcase">
+            <div class="ui stackable inverted secondary menu" id="menu">
+                <div class="ui container" style="height: 50px">
+                    <div class="ui sticky item">
+                        <img id="flagIcon" src="img/united-states-icon.png" />
+                    </div>
+                    <div class="menu right">
+                        <a href="#" class="item">Home</a>
+                        <a href="#" class="item">About us</a>
+                        <a href="#" class="item">Gallary</a>
+                        <a href="#" class="item">Contact</a>
+                    </div>
                 </div>
             </div>
-        </div>
+            <div class="ui container">
+                <div class="ui two column grid padded ">
+                    <div class="row hom-txt">
+                        <div class="column">
+                            <h1 id="introHeader">Patriot<b class="ui blue header">Pools</b> </h1>
+                            <p id="introParagraph">The best pool service in tucson.</p>
+                            <button class="circular ui blue button">Get a quote</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
         <div class="ui container">
-            <div class="ui two column grid padded ">
-                <div class="row hom-txt">
+            <div id="firstSectionHeader">
+                <h1 id="firstSectionHeader" class="ui center aligned header">Gallary</h1>
+            </div>
+            <div class="ui three column grid" id="gallary">
+                <div class="row" style="margin-top: 50px;">
                     <div class="column">
-                        <h1 id="introHeader">Patriot<b class="ui blue header">Pools</b> </h1>
-                        <p id="introParagraph">The best pool service in tucson.</p>
-                        <button class="circular ui blue button">Get a quote</button>
+                        <div class="ui segment">
+                            <img src="img/imgEleven.jpg" class="imgs" id="img11">
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="ui segment">
+                            <img src="img/imgFive.jpg" class="imgs" id="img5">
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="ui segment">
+                            <img src="img/imgFour.jpg" class="imgs" id="img4">
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="column">
+                        <div class="ui segment">
+                            <img src="img/imgSeven.jpg" class="imgs" id="img7">
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="ui segment">
+                            <img src="img/imgThree.jpg" class="imgs" id="img3">
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="ui segment">
+                            <img src="img/imgTwo.jpg" class="imgs" id="img2">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="ui container quote">
+            <div class="ui one column grid">
+                <div class="colum">
+                    <div class="ui tertiary inverted segment quoteBackground">
+
+
+
+                        <div class="ui list">
+                            <h2 class="quoteBackground">We are a veteran owned business. We pride are self on the work
+                                we do
+                                for are customers and
+                                there
+                                pools. We are a full service pool company that can services and maintain your pool and
+                                pool
+                                equipment. </li>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </header>
-    <div class="ui container">
-        <div id="firstSectionHeader">
-            <h1 id="firstSectionHeader" class="ui center aligned header">Gallary</h1>
-        </div>
-        <div class="ui three column grid" id="gallary">
-            <div class="row" style="margin-top: 50px;">
-                <div class="column">
-                    <div class="ui segment">
-                        <img src="img/imgEleven.jpg" class="imgs" id="img11">
-                    </div>
-                </div>
-                <div class="column">
-                    <div class="ui segment">
-                        <img src="img/imgFive.jpg" class="imgs" id="img5">
-                    </div>
-                </div>
-                <div class="column">
-                    <div class="ui segment">
-                        <img src="img/imgFour.jpg" class="imgs" id="img4">
-                    </div>
-                </div>
 
-            </div>
-            <div class="row">
-                <div class="column">
-                    <div class="ui segment">
-                        <img src="img/imgSeven.jpg" class="imgs" id="img7">
-                    </div>
-                </div>
-                <div class="column">
-                    <div class="ui segment">
-                        <img src="img/imgThree.jpg" class="imgs" id="img3">
-                    </div>
-                </div>
-                <div class="column">
-                    <div class="ui segment">
-                        <img src="img/imgTwo.jpg" class="imgs" id="img2">
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div>
-
-
-    <div class="ui container quote">
-        <div class="ui one column grid">
-            <div class="colum">
-                <div class="ui tertiary inverted segment quoteBackground">
-
-
-
-                    <div class="ui list">
-                        <h2 class="quoteBackground">We are a veteran owned business. We pride are self on the work we do
-                            for are customers and
-                            there
-                            pools. We are a full service pool company that can services and maintain your pool and pool
-                            equipment. </li>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="ui container">
-        <div class="ui one column grid">
-            <div class="column">
-                <img id="mapImg"
-                    src="https://maps.googleapis.com/maps/api/staticmap?scale=1&size=1600x900&style=feature:poi.business|visibility:off&style=feature:water|visibility:simplified&style=feature:road|element:labels.icon|visibility:off&style=feature:road.highway|element:labels|saturation:-90|lightness:25&format=jpg&language=en-US&region=US&path=weight:2|color:0xad6ecdcc|fillcolor:0xad6ecd33|enc:a%60oeEt%7DucTydJ%7ChCydIl%7EEmvGdjHy%7BE%7EhJowCzwKilAxtLb%40j%7ELpnAdtLnyCvvKr%7DElgJ%7EwGfhH%7CeI%60%7CEneJjfCluJzj%40%7CtJip%40bdJekCvcIy_FhuGqjHrzEahJpvC_vK%7CkAerLc%40o%7BLcnAsqLsxC%7BtKo%7CEqfJwvGqhH%7BdIo%7DE%7BdJuhCeuJum%40euJpm%40&client=google-presto&signature=uNH6e1RSY--vkGI2h34a0hiH6Wk" />
-
-            </div>
-        </div>
-    </div>
-
-    <div class="ui vertical stripe qutote segment" id="contactBuisness">
-        <div class="ui equal width stackable internally celled grid">
-            <div class="center align row">
-                <div class="column">
-                    <h1 id="contactUs">Contact Us</h1>
-                    <h3 id="phoneNumber">Call now! 520-999-9999</h3>
-                </div>
-                <div class="column">
-                    <h1 id="hours">Buisness Hours</h1>
-                    <div class="hourList">
-                        <li class="hours">Mon: 6:00 AM – 5:00 PM</li>
-                        <li class="hours">Tue: 6:00 AM – 5:00 PM</li>
-                        <li class="hours">Wed: 6:00 AM – 5:00 PM</li>
-                        <li class="hours">Thu: 6:00 AM – 5:00 PM</li>
-                        <li class="hours">Fri: 6:00 AM – 5:00 PM</li>
-                        <li class="hours">Sat: 9:00 AM – 12:00 PM</li>
-                        <li class="hours">Sun: Closed</li>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a
-            href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
-
-    <div class="ui inverted vertical footer segment">
         <div class="ui container">
-            <div class="ui stackable inverted divided equal height stackable grid">
-                <div class="four wide column">
-                    <p>Made by Anthony Fatato</p>
+            <div class="ui two column grid">
+                <div class="column">
+
+                    <p><i class="quote left icon"></i>I have nothing but positive comments for Patriot Pool Services.
+                        His
+                        work quality and professionalism
+                        are first rate. Also he is very quick in his responsiveness to all questions that I may have. I
+                        would highly recommend his pool cleaning services.<i class="quote right icon"></i></p>
+
+                    <h3>Steve B.</h3>
+                    <img class="ui tiny circular image" src="./img/maleIcon.jfif">
+
+                </div>
+                <div class="column">
+                    <p><i class="quote left icon"></i>I have nothing but positive comments for Patriot Pool Services.
+                        His
+                        work quality and professionalism
+                        are first rate. Also he is very quick in his responsiveness to all questions that I may have. I
+                        would highly recommend his pool cleaning services.<i class="quote right icon"></i></p>
+                    </p>
+                    <h3>Jack D.</h3>
+                    <img class="ui tiny circular image" src="./img/maleIcon.jfif">
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="ui container">
+            <div class="ui one column grid">
+                <div class="column">
+                    <img id="mapImg"
+                        src="https://maps.googleapis.com/maps/api/staticmap?scale=1&size=1600x900&style=feature:poi.business|visibility:off&style=feature:water|visibility:simplified&style=feature:road|element:labels.icon|visibility:off&style=feature:road.highway|element:labels|saturation:-90|lightness:25&format=jpg&language=en-US&region=US&path=weight:2|color:0xad6ecdcc|fillcolor:0xad6ecd33|enc:a%60oeEt%7DucTydJ%7ChCydIl%7EEmvGdjHy%7BE%7EhJowCzwKilAxtLb%40j%7ELpnAdtLnyCvvKr%7DElgJ%7EwGfhH%7CeI%60%7CEneJjfCluJzj%40%7CtJip%40bdJekCvcIy_FhuGqjHrzEahJpvC_vK%7CkAerLc%40o%7BLcnAsqLsxC%7BtKo%7CEqfJwvGqhH%7BdIo%7DE%7BdJuhCeuJum%40euJpm%40&client=google-presto&signature=uNH6e1RSY--vkGI2h34a0hiH6Wk" />
+
                 </div>
             </div>
         </div>
-    </div>
 
+        <div class="ui vertical stripe qutote segment" id="contactBuisness">
+            <div class="ui equal width stackable internally celled grid">
+                <div class="center align row">
+                    <div class="column">
+                        <h1 id="contactUs">Contact Us</h1>
+                        <h3 id="phoneNumber">Call now! 520-999-9999</h3>
+                    </div>
+                    <div class="column">
+                        <h1 id="hours">Buisness Hours</h1>
+                        <div class="hourList">
+                            <li class="hours">Mon: 6:00 AM – 5:00 PM</li>
+                            <li class="hours">Tue: 6:00 AM – 5:00 PM</li>
+                            <li class="hours">Wed: 6:00 AM – 5:00 PM</li>
+                            <li class="hours">Thu: 6:00 AM – 5:00 PM</li>
+                            <li class="hours">Fri: 6:00 AM – 5:00 PM</li>
+                            <li class="hours">Sat: 9:00 AM – 12:00 PM</li>
+                            <li class="hours">Sun: Closed</li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a
+                href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+
+        <div class="ui inverted vertical footer segment">
+            <div class="ui container">
+                <div class="ui stackable inverted divided equal height stackable grid">
+                    <div class="four wide column">
+                        <p>Made by Anthony Fatato</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"

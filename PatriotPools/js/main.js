@@ -1,5 +1,13 @@
 $('document').ready(function () {
 
+    $(".sidebar").sidebar('show');
+
+
+
+
+
+
+
     window.onscroll = function () { stickyNav() };
 
     var navbar = $("#menu");
